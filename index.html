@@ -12,28 +12,33 @@
 </head>
 <body>
   <h1>Privacy Policy for Flashlight Tag</h1>
-  <p>Last updated: 16 November 2026</p>
-  <p>Flashlight Tag is a local Wi-Fi multiplayer game. It does not create accounts, does not show ads, and does not sell in-app items.</p>
+  <p>Last updated: 18 November 2026</p>
+  <p>Flashlight Tag is a multiplayer game for local Wi-Fi and optional online friend matches. It does not create a Flashlight Tag account, does not show ads, and does not sell in-app items.</p>
   <h2>Who this covers</h2>
   <p>This policy applies to the Android app <strong>Flashlight Tag</strong> published on Google Play by <strong>Actinium Gaming Studio</strong>. Contact: use the email address shown on the Google Play listing, or open an issue on the public project repository.</p>
   <h2>What the game does</h2>
-  <p>Players on the same local network (Wi-Fi or a phone hotspot) join a hosted match with a short code. The host device is also a player. There is no Flashlight Tag game server on the internet.</p>
-  <h2>Information the app uses</h2>
-  <p><strong>On-device and on the local network only</strong></p>
+  <p>Players join a hosted match with a short code. The host device is also a player. There is no Flashlight Tag dedicated game server.</p>
   <ul>
-    <li>A random join code derived from the host phone’s local network address so friends can type it and find the host on the same LAN.</li>
-    <li>Gameplay state for the current match (roles, movement, tags, keys, scores). That state is sent between the phones in the match, not to us.</li>
+    <li><strong>Local game:</strong> phones on the same Wi-Fi or hotspot talk to each other directly.</li>
+    <li><strong>Online match:</strong> the host phone is still the game server. Epic Online Services is used only to find the lobby and carry match packets when friends are not on the same network. Players do not need an Epic account.</li>
+  </ul>
+  <h2>Information the app uses</h2>
+  <p><strong>On-device and in the current match</strong></p>
+  <ul>
+    <li>A join code. Local codes are derived from the host phone’s LAN address. Online codes are random lobby names used to find the host through Epic.</li>
+    <li>Gameplay state for the current match (roles, movement, tags, keys, scores). Local matches send that only between the phones. Online matches send it between the phones via Epic (direct P2P when possible, otherwise Epic’s relay).</li>
     <li>Settings you choose in the app (for example volume), stored on that phone.</li>
+    <li>For online matches, Epic creates an anonymous device identifier so phones can connect. We do not receive that identifier.</li>
   </ul>
   <p><strong>Permissions</strong></p>
   <ul>
-    <li><strong>Internet / network state</strong> — so phones in the match can talk to each other on the local network. The app does not require a login or cloud account.</li>
+    <li><strong>Internet / network state</strong> — local matches on the LAN, and online matches through Epic. The app does not require a Flashlight Tag login.</li>
   </ul>
-  <p>The app does not collect your name, email, contacts, location, photos, or payment details. It does not use advertising identifiers.</p>
+  <p>The app does not collect your email, contacts, location, photos, or payment details. It does not use advertising identifiers. Player names stay in the current match.</p>
   <h2>Analytics, ads, and children</h2>
-  <p>We do not run our own analytics, crash-reporting, advertising, or profiling services in the game. The game is a 2–10 player local match. We do not knowingly collect personal information from children. Do not enter personal information in player names.</p>
+  <p>We do not run our own analytics, crash-reporting, advertising, or profiling services in the game. The game is a 2–10 player match. We do not knowingly collect personal information from children. Do not enter personal information in player names.</p>
   <h2>Sharing</h2>
-  <p>We do not sell personal information. Match data stays among the phones in that match. Google Play may process install and review data under Google’s own policies when you use Play.</p>
+  <p>We do not sell personal information. Local match data stays among the phones in that match. Online match data is processed by <strong>Epic Games (Epic Online Services)</strong> so friends can connect; see Epic’s privacy policy. Google Play may process install and review data under Google’s own policies when you use Play.</p>
   <h2>Retention</h2>
   <p>When the match ends or you close the app, the session is gone. We do not keep a server-side history of matches.</p>
   <h2>Changes</h2>
